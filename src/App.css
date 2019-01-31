@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
+body{font-family: 'Poppins', sans-serif;}
 .App {
   text-align: center;
 }
@@ -32,5 +34,17 @@
 }
 
 
-.navigation{padding:20px 0}
+.navigation{padding:30px 150px 30px 0}
 .App-logo{width:150px;height:100px;}
+section{padding:60px 0;color:#fff;}
+.top-right{position: absolute;right:0;top:25px;}
+header .container{position: relative;}
+.modal-content{max-width:650px;}
+.carousel .slide .legend{text-align:left;margin:0;font-size:16px;z-index: 99;background-color:transparent;opacity: 1;bottom:inherit;top:50%;transform:translate(-50%, -50%);}
+.carousel .slide .legend .wrap{width:750px;margin:0 auto;}
+.slider-wrapper{position: relative;}
+.slider-wrapper .slide:before{position:absolute;content:"";left:0;top:0;right:0;bottom: 0;background:#6167d8;z-index:99;opacity: 0.7;}
+.legend h2{font-size:50px;font-family: 'Poppins', sans-serif;font-weight:500;}
+.carousel .control-dots{padding:0;}
+.legend p{margin:0;}
+.legend p small{font-size: 16px;font-weight: 400;}
