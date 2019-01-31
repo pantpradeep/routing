@@ -53,7 +53,7 @@ class Header extends Component {
             <div>
                 <MediaQuery query="(min-device-width: 319px)">
                     <header className="clearfix">
-                        <div className="container">
+                        <div className="container clearfix">
                             <div className="float-left brand">
                                 <a href="/"><img className="App-logo" src={ logo } alt=""/></a>
                             </div>
