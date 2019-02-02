@@ -5,7 +5,13 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Header from "./components/Header";
+import Gallery from "./components/Gallery";
+import StateDef from "./components/StateDef";
+import Graphics from "./components/Graphics";
 import 'bootstrap/dist/css/bootstrap.css';
+import './css/main.css';
+var ReactCSSTransitionGroup = require('react-addons-css-transition-group');
+
 
 
 const customStyles = {
@@ -79,14 +85,21 @@ class App extends Component {
         
           <BrowserRouter>
             <div>
-            <Header />
+            <ReactCSSTransitionGroup transitionName = "example"
+               transitionAppear = {true} transitionAppearTimeout = {500}
+               transitionEnter = {false} transitionLeave = {false}>
+              <Header />
+            </ReactCSSTransitionGroup>
               { /* {this.renderTags()} */ }
               <Switch>
               <Route path="/" component={ Home } exact/>
               <Route path="/about" component={ About }/>
               <Route path="/contact" component={ Contact }/>
+              <Route path="/gallery" component={ Gallery }/>
               <Route component={ Error } />
               </Switch>
+              <StateDef test ="test"/>
+              <Graphics/>
             </div>
           </BrowserRouter>
         

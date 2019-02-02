@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
 body{font-family: 'Poppins', sans-serif;}
+body h2{font-size:44px;font-family: 'Poppins', sans-serif;font-weight:500;}
+
 .App {
   text-align: center;
 }
@@ -36,7 +38,7 @@ body{font-family: 'Poppins', sans-serif;}
 
 .navigation{padding:30px 150px 30px 0}
 .App-logo{width:150px;height:100px;}
-section{padding:60px 0;color:#fff;}
+section{padding:60px 0;}
 .top-right{position: absolute;right:0;top:25px;}
 header .container{position: relative;}
 .modal-content{max-width:650px;}
@@ -56,3 +58,16 @@ header{background-color:#4d62d5;}
 .moreSection-2{background-color:#F5F2FC}
 .moreSection{background-color: #4e54c8}
 .btn.btn-primary{background-color:#4d62d5; border-radius:50px;border-color:#4d62d5;}
+.innerBanner img{display:block;width:100%;}
+.test{color:red}
+.retest{color:green;}
+.reretest{color:yellow;}
+.example-appear {
+  opacity: 0.04;
+}
+.example-appear.example-appear-active {
+  opacity: 2;
+  transition: opacity 50s ease-in;
+}
+
+.test1{background-color:green;width:500px;height:500px;}

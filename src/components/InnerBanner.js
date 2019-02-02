@@ -5,7 +5,7 @@ class InnerBanner extends Component {
     render() { 
         return ( 
             <div className="innerBanner">
-                <img src="" alt=""/>
+                <img src="http://checkyourprojects.com/design/innerBanner.jpg" alt=""/>
             </div>
          );
     }

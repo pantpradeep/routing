@@ -3,7 +3,6 @@ import logo from '../logo.svg';
 import '../App.css';
 import Navigation from "./Navigation";
 import MediaQuery from 'react-responsive';
-import Responsive from 'react-responsive';
 import Modal from 'react-modal';
 
 const customStyles = {

@@ -7,7 +7,7 @@ class CarouselBanner extends Component {
     state = {  }
     render() {
         return (
-            <Carousel loop={ true } selected={ 0 } showArrows={ true } showNav={ true } showThumbs={ false } swipeable={ true }>
+            <Carousel loop={ true } selected={ 0 } showArrows={ true } showNav={ true } showThumbs={ false } autoPlay={ true } showStatus= { false }>
                 <div>
                     <img src="http://checkyourprojects.com/design/banner.jpg" alt=""/>
                     <div className="legend">
@@ -18,9 +18,9 @@ class CarouselBanner extends Component {
                                 <p><small>creating modern and responsive design for Web and Mobile</small></p>
                             </MediaQuery>
                             <p className="info">React-responsive-carousel is used for this Carousel Banner</p>
-                            <div class="btns">
+                            <div className="btns">
                             <a href="/about" className="btn btn-lg btn-primary">Learn More</a>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
