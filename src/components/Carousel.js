@@ -17,7 +17,7 @@ class CarouselBanner extends Component {
                             <MediaQuery query="(min-device-width: 767px)">
                                 <p><small>creating modern and responsive design for Web and Mobile</small></p>
                             </MediaQuery>
-                            <p className="info">React-responsive-carousel is used for this Carousel Banner</p>
+                            <p className="info">Used <strong>React JS, SASS, GULP and GIT</strong></p>
                             <div className="btns">
                             <a href="/about" className="btn btn-lg btn-primary">Learn More</a>
                             </div> 
