@@ -34,10 +34,7 @@ class Graphics extends Component {
                 </div>
                 <button className="m-2 btn btn-danger btn-sm" onClick={this.onHide}>Hide green div</button>
                 <button className="m-2 btn btn-success btn-sm" onClick={this.onScale}>Scale green div</button>
-                <div>
-                <svg height="210" width="400">
-  <path d="M0 0 L0 200 L225 200 Z" />
-</svg></div>
+                
             </div>
          );
     }

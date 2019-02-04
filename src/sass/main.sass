@@ -3,7 +3,7 @@ $primary-colors: #f00
 $default-bg: #fff   
     
 body
-  background-color :  pink  
+  background-color :  #fff  
   font: 100% $font-stack  
   color: #000   
 
@@ -110,4 +110,20 @@ header
   width: 100% 
 
 strong
-  text-transform: uppercase;
+  text-transform: uppercase
+
+.parent
+  background-color:#F08080
+
+@mixin border-radius($radius) 
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  border-radius: $radius 
+
+.little-border
+  padding: 30px
+  @extend .parent
+  @include border-radius(20px)
+
+.marginBottom50
+  margin-bottom: 50px

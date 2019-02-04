@@ -9,6 +9,7 @@ import Gallery from "./components/Gallery";
 import StateDef from "./components/StateDef";
 import Graphics from "./components/Graphics";
 import 'bootstrap/dist/css/bootstrap.css';
+import StatePage from "./components/StatePage";
 import './css/main.css';
 var ReactCSSTransitionGroup = require('react-addons-css-transition-group');
 
@@ -85,6 +86,7 @@ class App extends Component {
         
           <BrowserRouter>
             <div>
+          
             <ReactCSSTransitionGroup transitionName = "example"
                transitionAppear = {true} transitionAppearTimeout = {500}
                transitionEnter = {false} transitionLeave = {false}>
@@ -100,6 +102,7 @@ class App extends Component {
               </Switch>
               <StateDef test ="test"/>
               <Graphics/>
+              <StatePage />
             </div>
           </BrowserRouter>
         

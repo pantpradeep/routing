@@ -7,7 +7,7 @@ class Error extends Component {
         return ( 
             <div>
                 Error
-                <p className={this.props.test}>test</p>
+                <p className={this.props.test}>testsd</p>
                 <ReactCSSTransitionGroup transitionName = "example"
                transitionAppear = {true} transitionAppearTimeout = {1000}
                transitionEnter = {false} transitionLeave = {false}>
