@@ -23,7 +23,7 @@ class CarouselBanner extends Component {
                             </div> 
                         </div>
                     </div>
-                </div>
+                </div> 
                 <div>
                     <img src="http://checkyourprojects.com/design/banner.jpg" alt=""/>
                     <div className="legend">
